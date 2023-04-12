@@ -1,39 +1,45 @@
-<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
+using WorldMapStrategyKit;
 
 public class UIButtonBundle : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] public GameObject[] panels;
+    [SerializeField] public Button[] buttons;
+
+    private int currentPanelIndex = -1;
+
+    public void Start()
     {
-        
+        for (int i = 0; i < buttons.Length; i++)
+        {
+            int index = i;
+            buttons[index].onClick.AddListener(() => OnButtonClick(index));
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnButtonClick(int index)
     {
-        
+        if (currentPanelIndex == index)
+        {
+            return;
+        }
+
+        for (int i = 0; i < panels.Length; i++)
+        {
+            if(i == index)
+            {
+                panels[i].SetActive(true);
+            } else
+            {
+                panels[i].SetActive(false);
+            }
+        }
+
+        currentPanelIndex = index;
     }
+
 }
-=======
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class UIButtonBundle : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
->>>>>>> 68f8efb2a846b970304649f1d187e665da684a14
