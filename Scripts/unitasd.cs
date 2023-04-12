@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,21 +5,24 @@ using WorldMapStrategyKit;
 
 public class unitasd : MonoBehaviour
 {
-    enum UNIT_TYPE
+    public enum UNIT_TYPE
     {
         AIR = 1
     }
 
-    WMSK map;
-    GameObjectAnimator airplane;
-    GameObject circle;
+    public WMSK map;
+    public GameObjectAnimator airplane;
+    public GameObject circle;
+    public List<int> pathList;
+    public Vector2 currentVector;
+    public int currentProvinceIndex;
 
-    float circleRadius = 50f, circleRingStart = 0, circleRingEnd = 1f;
-    Color circleColor = new Color(1f, 0.2f, 0.2f, 0.75f);
-    bool enableClickToMoveTank = true, showCircle = true;
+    public float circleRadius = 50f, circleRingStart = 0, circleRingEnd = 1f;
+    public Color circleColor = new Color(1f, 0.2f, 0.2f, 0.75f);
+    public bool enableClickToMoveTank = true, showCircle = true;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         map = WMSK.instance;
 
@@ -28,8 +30,7 @@ public class unitasd : MonoBehaviour
         {
             if (enableClickToMoveTank)
             {
-                MoveTankWithPathFinding(map.provinces[provinceIndex].centerRect);
-                Debug.Log(map.provinces[provinceIndex].centerRect);
+                MoveTankWithPathFinding(provinceIndex);
             }
         };
 
@@ -45,7 +46,7 @@ public class unitasd : MonoBehaviour
         DropTankOnCity();
     }
 
-    void DropTankOnCity()
+    public void DropTankOnCity()
     {
         int cityIndex = map.GetCityIndex("Seoul", "South Korea");
 
@@ -58,11 +59,12 @@ public class unitasd : MonoBehaviour
         airplane.type = (int)UNIT_TYPE.AIR;
         airplane.autoRotation = true;
         airplane.terrainCapability = TERRAIN_CAPABILITY.OnlyGround;
+        currentVector = airplaneG0.WMSK_GetMap2DPosition();
 
         map.FlyToLocation(cityPosition, 2.0f, 0.5f);
     }
 
-    void MoveTankWithPathFinding(Vector2 destination)
+    public void MoveTankWithPathFinding(int provinceIndex)
     {
         if (airplane == null)
         {
@@ -70,18 +72,28 @@ public class unitasd : MonoBehaviour
             return;
         }
 
+        currentProvinceIndex = map.GetProvinceIndex(currentVector);
+        pathList = map.FindRoute(map.GetProvince(currentVector), map.GetProvince(provinceIndex));
         airplane.terrainCapability = TERRAIN_CAPABILITY.OnlyGround;
-        airplane.MoveTo(destination, 0.3f);
+
+        List<Vector2> waypoints = new List<Vector2>();
+        for (int i = 0; i < pathList.Count; i++)
+        {
+            waypoints.Add(map.provinces[pathList[i]].center);
+        }
+        airplane.MoveTo(waypoints, 0.75f);
+
+        currentVector = map.GetProvince(provinceIndex).center;
     }
 
-    void UpdatePathLine(float x, float y)
+    public void UpdatePathLine(float x, float y)
     {
         Vector2 destination = new Vector2(x, y);
 
         UpdateCircle(destination);
     }
 
-    void UpdateCircle(Vector2 position)
+    public void UpdateCircle(Vector2 position)
     {
         if (circle != null)
         {
@@ -91,101 +103,4 @@ public class unitasd : MonoBehaviour
             return;
         circle = map.AddCircle(position, circleRadius, circleRingStart, circleRingEnd, circleColor);
     }
-
 }
-=======
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using WorldMapStrategyKit;
-
-public class unitasd : MonoBehaviour
-{
-    enum UNIT_TYPE
-    {
-        AIR = 1
-    }
-
-    WMSK map;
-    GameObjectAnimator airplane;
-    GameObject circle;
-
-    float circleRadius = 50f, circleRingStart = 0, circleRingEnd = 1f;
-    Color circleColor = new Color(1f, 0.2f, 0.2f, 0.75f);
-    bool enableClickToMoveTank = true, showCircle = true;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        map = WMSK.instance;
-
-        map.OnProvinceClick += (int provinceIndex, int regionIndex, int buttonIndex) =>
-        {
-            if (enableClickToMoveTank)
-            {
-                MoveTankWithPathFinding(map.provinces[provinceIndex].centerRect);
-                Debug.Log(map.provinces[provinceIndex].centerRect);
-            }
-        };
-
-        map.OnMouseMove += (float x, float y) =>
-        {
-            if (airplane.isMoving)
-                return;
-            UpdatePathLine(x, y);
-        };
-
-        map.CenterMap();
-
-        DropTankOnCity();
-    }
-
-    void DropTankOnCity()
-    {
-        int cityIndex = map.GetCityIndex("Seoul", "South Korea");
-
-        Vector2 cityPosition = map.cities[cityIndex].unity2DLocation;
-
-        if (airplane != null)
-            DestroyImmediate(airplane);
-        GameObject airplaneG0 = Instantiate(Resources.Load<GameObject>("Airplane/Airplane"));
-        airplane = airplaneG0.WMSK_MoveTo(cityPosition);
-        airplane.type = (int)UNIT_TYPE.AIR;
-        airplane.autoRotation = true;
-        airplane.terrainCapability = TERRAIN_CAPABILITY.OnlyGround;
-
-        map.FlyToLocation(cityPosition, 2.0f, 0.5f);
-    }
-
-    void MoveTankWithPathFinding(Vector2 destination)
-    {
-        if (airplane == null)
-        {
-            DropTankOnCity();
-            return;
-        }
-
-        airplane.terrainCapability = TERRAIN_CAPABILITY.OnlyGround;
-        airplane.MoveTo(destination, 0.3f);
-    }
-
-    void UpdatePathLine(float x, float y)
-    {
-        Vector2 destination = new Vector2(x, y);
-
-        UpdateCircle(destination);
-    }
-
-    void UpdateCircle(Vector2 position)
-    {
-        if (circle != null)
-        {
-            Destroy(circle);
-        }
-        if (!showCircle)
-            return;
-        circle = map.AddCircle(position, circleRadius, circleRingStart, circleRingEnd, circleColor);
-    }
-
-}
->>>>>>> 68f8efb2a846b970304649f1d187e665da684a14
