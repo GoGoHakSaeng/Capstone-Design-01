@@ -25,7 +25,7 @@ public class MainBtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
                 break;
             case mainButtonType.Continue:
                 Debug.Log("이어하기");
-                SceneLoad.LoadSceneHandler("Play", 1); // 1 불러오기
+                SceneManager.LoadScene("InGameScene"); // 1 불러오기
                 break;
             case mainButtonType.Quit:
                 Debug.Log("나가기");
