@@ -1,0 +1,42 @@
+﻿{
+	"0":{
+		"ImporterColor":"FF0000",
+		"popular Sentiment":500,
+		"population":150000,
+		"gold":5000,
+		"turnGold":0,
+		"isPlayer":true,
+		"relationState": [0, 1, 1, 1],
+		"friendship": [-1, 0, 0, 0]
+	},
+	"1":{
+		"ImporterColor":"F5E410",
+		"popular Sentiment":500,
+		"population":50000,
+		"gold":5000,
+		"turnGold":0,
+		"isPlayer":false,
+		"relationState": [1, 0, 1, 1],
+		"friendship": [0, -1, 0, 0]
+	},
+	"2":{
+		"ImporterColor":"1013F5",
+		"popular Sentiment":500,
+		"population":70000,
+		"gold":5000,
+		"turnGold":0,
+		"isPlayer":false,
+		"relationState": [1, 1, 0, 1],
+		"friendship": [0, 0, -1, 0]
+	},
+	"3":{
+		"ImporterColor":"4BCD1C",
+		"popular Sentiment":500,
+		"population":150000,
+		"gold":5000,
+		"turnGold":0,
+		"isPlayer":false,
+		"relationState": [1, 1, 1, 0],
+		"friendship": [0, 0, 0, -1]
+	}
+}

@@ -1,0 +1,363 @@
+{
+    "Koguryeo": [
+        {
+            "index": 1,
+            "name": "국가 재건",
+            "description": "전쟁으로 피폐해진 조국을 다시 일으켜야 합니다.\n\n효과 : 국고 + 1000",
+            "effect": [
+                {
+                    "effectName": "Gold",
+                    "effectValue": 1000
+                }, 
+                {
+                    "effectName": "PST",
+                    "effectValue": 10
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 2,
+            "name": "5부 폐지",
+            "description": "이제 5개의 부족이 아닌 왕이 국가를 다스려야 합니다.\n\n효과 : 안정도 + 5",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": 5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 3,
+            "name": "회복된 국가",
+            "description":"율령을 반포하고 불교를 받아들여 안을 안정시켰으니, 이제 밖으로 눈을 돌릴 시간 입니다.\n\n효과 : 안정도 + 5",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": 5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 4,
+            "name": "백잔 정벌",
+            "description":"이제 고국원왕의 복수를 해야할 때 입니다.\n\n효과 : 백제 전쟁명분",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 5,
+            "name": "신라 구원",
+            "description":"위기에 처한 신라를 구원하여 영향력을 퍼트립니다.\n\n효과 : 신라 동맹",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 6,
+            "name": "평양 천도",
+            "description":"이제는 한반도에 더 집중할 시간 입니다.\n\n효과 : 수도 이전",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 7,
+            "name": "고구려 제일 주의",
+            "description":"다시 천하의 중심은 하백과 천제의 후손인 우리임을 알려야 합니다.\n\n효과 : 안정도 + 10, 인력 + 10,000",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": 10
+                },
+                {
+                    "effectName": "Manpower",
+                    "effectValue": 10
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 8,
+            "name": " --- ",
+            "description":"영원할 줄 알았던 태평성대는 결국 끝이나고, 피를 피로 씼는 분열이 일어났습니다.\n\n효과 : 안정도 -20, 인력 - 50,000",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": -20
+                },
+                {
+                    "effectName": "Manpower",
+                    "effectValue": -50
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 9,
+            "name": "천리 장성",
+            "description":"불안정한 상황에서 적들은 더욱 강해지고 우리는 대비해야 합니다.\n\n효과 : 건설 속도 단축",
+            "effect": [
+                {
+                    "effectName": "Construction_Time",
+                    "effectValue": 5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 10,
+            "name": "선택",
+            "description":"우리의 국가는 안정을 되찾았지만, 누가 권력을 쥘지 선택해야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        }
+    ],
+    "Baekje": [
+        {
+            "index": 1,
+            "name": "한반도의 최강자",
+            "description": "고구려의 왕을 죽이며 우리는 한반도의 최강자가 되었습니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 2,
+            "name": "평양 진격",
+            "description": "우리는 한강을 넘어 대동강으로 향해야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 3,
+            "name": "삼국 동맹",
+            "description":"왜와 가야와 손을 잡아 더 큰 전쟁에 대비해야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 4,
+            "name": "신라 복속화",
+            "description":"동쪽의 나약한 국가를 우리의 발 아래에 둘 것 입니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 5,
+            "name": "군대 복원",
+            "description":"오랜 전쟁으로 피폐해진 군대를 다시 세워야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 6,
+            "name": "천도",
+            "description":"완전히 통합되지 않은 국가를 통합하기 위해 남쪽으로 천도 해야합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 7,
+            "name": "내부의 적",
+            "description":"귀족들 간의 암투, 마한 세력의 반발을 멈춰야 합니다.\n\n효과 : 안정도 - 5",
+            "effect":  [
+                {
+                    "effectName": "PST",
+                    "effectValue": -5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 8,
+            "name": "왕권 재구축",
+            "description":"왕을 중심으로 백제는 다시 뭉치게 될 것입니다.\n\n효과 : 안정도 + 10, 국고 + 1000",
+            "effect":  [
+                {
+                    "effectName": "PST",
+                    "effectValue": 10
+                }, 
+                {
+                    "effectName": "Gold",
+                    "effectValue": 1000
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 9,
+            "name": "재무장",
+            "description":"다시 새로운 전쟁을 통해 한반도 최강이 돼야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 10,
+            "name": "십자 동맹",
+            "description":"이제 혼자서는 전쟁을 이길 수 없습니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        }
+    ],
+    "Sila": [
+        {
+            "index": 1,
+            "name": "마립간",
+            "description": "이사금은 이제 마립간이라 불리며 더 강한 권력을 행사할 것입니다.\n\n효과 : 안정도 + 5",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": 5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 2,
+            "name": "변방의 국가",
+            "description": "아직 우리는 나약하기에 안에서 힘을 길러야 합니다.\n\n효과 : 건설 속도 증가",
+            "effect": [
+                {
+                    "effectName": "Construction_Time",
+                    "effectValue": 8
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 3,
+            "name": "고구려의 보호",
+            "description":"고구려의 아래가 되는 대신 보호를 제공받을 것입니다.\n\n효과 : 안정도 - 5, 국고 - 500",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": -5
+                }, 
+                {
+                    "effectName": "Gold",
+                    "effectValue": -500
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 4,
+            "name": "내정 간섭",
+            "description":"고구려는 우리의 정치에 관여하는 대신, 그들의 선진 문물을 제공을 약속했습니다.\n\n효과 : 안정도 - 5",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": -5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 5,
+            "name": "국가 방어",
+            "description":"침략을 반복당하는 우리는 국가를 지켜야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 6,
+            "name": "화랑",
+            "description":"우리는 화랑을 통해 더 나은 군대를 양성해야 합니다.\n\n효과 : 인력 + 30,000",
+            "effect": [
+                {
+                    "effectName": "Manpower",
+                    "effectValue": 30
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 7,
+            "name": "자주국",
+            "description":"이제 우리는 간섭을 벗어나 국가의 전성기를 맞이할 것입니다.\n\n효과 : 안정도 + 10",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": 10
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 8,
+            "name": "왕",
+            "description":"조국은 이제 새로운 시대에 들어설 것입니다.\n\n효과 : 안정도 + 5",
+            "effect": [
+                {
+                    "effectName": "PST",
+                    "effectValue": 5
+                }
+            ],
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 9,
+            "name": "한강 점령",
+            "description":"한강을 점령하여 우리의 강력함을 과시해야 합니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        },
+        {
+            "index": 10,
+            "name": "한반도 지배 계획",
+            "description":"나약해진 두 나라를 멸망시켜 우리는 새로운 체제를 만들 것입니다.",
+            "effect": null,
+            "complete": false,
+            "time": 70
+        }
+    ],
+    "Gaya": [
+        {
+            "index": 1,
+            "name": "btn1",
+            "description": "test text",
+            "effect": null
+        },
+        {
+            "index": 2,
+            "name": "btn2",
+            "description": "test text2",
+            "effect": null
+        },
+        {
+            "index": 3,
+            "name": "btn3",
+            "description":"test text3",
+            "effect": null
+        }
+    ]
+}

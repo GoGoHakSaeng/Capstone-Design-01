@@ -1,0 +1,461 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1699937016057100, "dur":17168, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937016074274, "dur":123, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1699937016074413, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1699937016074442, "dur":387, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1699937016074893, "dur":935, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937016075828, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687493, "dur":108, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687601, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687629, "dur":17, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687646, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687659, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687661, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687671, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687674, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687682, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687705, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018687736, "dur":3433, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1699937016075819, "dur":68, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016075887, "dur":10505, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016086406, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1699937016086410, "dur":901, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016087314, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1699937016087320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016089049, "dur":6439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1699937016095504, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1699937016095824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016096483, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1699937016099033, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1699937016099215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016099224, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1699937016101489, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1699937016101670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016102421, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1699937016104677, "dur":13871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1699937016118553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016118563, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1699937016120138, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1699937016120313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016120322, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1699937016123692, "dur":17290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1699937016140986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016140997, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1699937016142657, "dur":3699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1699937016146360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016146414, "dur":5808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1699937016152329, "dur":42900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan.exe" }}
+,{ "pid":12345, "tid":1, "ts":1699937016195233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016195240, "dur":15105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan.exe" }}
+,{ "pid":12345, "tid":1, "ts":1699937016210424, "dur":42809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016253237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016253245, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016255208, "dur":36474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016291687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016291697, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016293682, "dur":26253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016319941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016319950, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016322737, "dur":64804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016387546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016387554, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016390315, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016390740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016390748, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016392412, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016392844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016392852, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016394367, "dur":818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016395190, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016395204, "dur":6692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016401979, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016402448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016402455, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016404454, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016404857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016404865, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016406410, "dur":38328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016444744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016444754, "dur":6800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016451636, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016452022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016452029, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016454046, "dur":22320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016476370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016476379, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016478686, "dur":13144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016491836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016491845, "dur":32682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016524607, "dur":24575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016549187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016549196, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016550814, "dur":26836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016577687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016577695, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016579228, "dur":1795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016581028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016581036, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016583369, "dur":22150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016605525, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016605534, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016607439, "dur":22589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016630033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016630042, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016632473, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016633336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016633345, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016635065, "dur":129414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016764485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016764493, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016766430, "dur":86766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016853200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937016853209, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937016855003, "dur":190206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017045215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017045224, "dur":19246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017064552, "dur":145769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017210326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017210335, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017211961, "dur":144764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017356737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017356746, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017359171, "dur":143754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017502930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017502938, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017504657, "dur":28683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017533345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017533353, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017535227, "dur":109594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017644826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017644889, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017648118, "dur":77294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017725417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937017725426, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937017727104, "dur":444668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937018171777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937018171786, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937018174999, "dur":59494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937018234497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937018234520, "dur":4240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937018238836, "dur":444813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937018683653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699937018683662, "dur":3713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699937018687461, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1699937018687463, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016076178, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016076179, "dur":10278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016086458, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1699937016086988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016092641, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1699937016095592, "dur":12893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937016108490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016108500, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937016110742, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1699937016111152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016111312, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1699937016112996, "dur":15717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937016128717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016128726, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937016130986, "dur":22049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937016153134, "dur":834, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016154446, "dur":13327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937016167950, "dur":22401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016190356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016191358, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016193345, "dur":31574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016224924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016225449, "dur":17187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016242717, "dur":55596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016298354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016298362, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016300053, "dur":20430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016320486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016320492, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016323696, "dur":78767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016402467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016402473, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016405164, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016406215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016406223, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016408379, "dur":42840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016451230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016451239, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016453615, "dur":21860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016475480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016475489, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016478656, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016479327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016479341, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016481288, "dur":673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016481965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016481973, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016484228, "dur":37503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016521735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016521744, "dur":2911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016524735, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016525168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016525176, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016527342, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016527999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016528007, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016529938, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016530358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016530366, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016532328, "dur":20813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016553146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016553154, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016554692, "dur":36279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016590976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016590984, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016592971, "dur":29310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016622286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016622295, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016624240, "dur":20358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016644603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016644613, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016646259, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016646674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016646682, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016648330, "dur":57051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016705386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016705394, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016706944, "dur":59331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016766280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937016766289, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937016767960, "dur":309433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017077531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937017077541, "dur":37737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017115360, "dur":96962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017212326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937017212333, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017214029, "dur":84511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017298545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937017298591, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017300308, "dur":91336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017391650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937017391670, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017393293, "dur":194435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017587733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937017587756, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017591260, "dur":127562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017718827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937017718842, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937017720565, "dur":423930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937018144500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018144509, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937018146541, "dur":135870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937018282457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018282467, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937018284665, "dur":25646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937018310317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018311130, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699937018312493, "dur":8941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1699937018321439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018321446, "dur":2522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1699937018324042, "dur":23048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1699937018347094, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018347104, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1699937018349050, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/data.unity3d" }}
+,{ "pid":12345, "tid":2, "ts":1699937018349139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018349145, "dur":179232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/data.unity3d" }}
+,{ "pid":12345, "tid":2, "ts":1699937018528462, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937018528734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699937018528742, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1699937018530359, "dur":157132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016076011, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016076011, "dur":10448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016086460, "dur":25406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1699937016111870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016112020, "dur":11550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1699937016123666, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1699937016123861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016127688, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1699937016130641, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1699937016130839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016131038, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1699937016133043, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1699937016133230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016133240, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1699937016135692, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1699937016136057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016136065, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1699937016138398, "dur":11101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016149507, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016149672, "dur":5689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016155473, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1699937016155658, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016156225, "dur":6031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1699937016162344, "dur":82927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016245276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016245285, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016247474, "dur":21952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016269431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016269452, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016271265, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016271693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016271701, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016273204, "dur":25093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016298302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016299928, "dur":15424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016315438, "dur":28014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016343457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016343466, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016346075, "dur":25447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016371527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016371550, "dur":11651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016383297, "dur":25425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016408818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016408826, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016410379, "dur":19475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016429859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016429868, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016431728, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016432273, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016432285, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016434068, "dur":20729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016454801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016454809, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016456555, "dur":20604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016477163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016477171, "dur":3089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016480361, "dur":22151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016502517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016502565, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016504204, "dur":27146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016531354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016531362, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016533982, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016534382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016534390, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016535979, "dur":27600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016563584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016563593, "dur":7562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016571236, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016571643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016571651, "dur":5542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016577274, "dur":28380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016605658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016605664, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016607827, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016608285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016608294, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016609929, "dur":35733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016645666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016645675, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016647464, "dur":26491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016673960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016674020, "dur":4310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016678411, "dur":104069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016782485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016782494, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016785350, "dur":68463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016853817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016853824, "dur":6185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016860095, "dur":52495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016912595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937016912604, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937016915178, "dur":133201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017048385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937017048395, "dur":31056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017079532, "dur":133894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017213431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937017213451, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017215081, "dur":218540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017433625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937017433633, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017435648, "dur":253075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017688728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937017688737, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017690848, "dur":118237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017809090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937017809099, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017810946, "dur":95642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017906634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937017906644, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937017908579, "dur":359167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937018267751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937018267761, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937018270463, "dur":278697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937018549165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699937018549176, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699937018551106, "dur":136373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016076319, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016076319, "dur":10117, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016086437, "dur":45357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1699937016131839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016132414, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1699937016134395, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1699937016134561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016134570, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1699937016136530, "dur":2662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016139197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016139544, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016141532, "dur":52177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016193712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016193718, "dur":15415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016209223, "dur":44583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016253810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016253818, "dur":13104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016267002, "dur":28635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016295642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016295651, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016298714, "dur":21298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016320015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016320022, "dur":3277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016323382, "dur":20841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016344227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016344235, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016348210, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016348806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016348814, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016350628, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016351042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016351049, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016352614, "dur":2162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016354781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016354789, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016358644, "dur":163273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016521920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016521927, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016524392, "dur":2037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016526434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016526442, "dur":10509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016537031, "dur":123281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016660317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016660339, "dur":10599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016671039, "dur":119933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016790978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016790987, "dur":5943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016797028, "dur":34405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016831437, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016831453, "dur":11679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016843229, "dur":27264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016870498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016870507, "dur":5544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016876129, "dur":48013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016924146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937016924156, "dur":45104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937016969336, "dur":229669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017199010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937017199018, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017201309, "dur":59175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017260488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937017260496, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017262085, "dur":440256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017702347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937017702358, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017705760, "dur":97021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017802786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937017802795, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937017804404, "dur":235769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937018040178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937018040187, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937018043284, "dur":234369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937018277659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937018277668, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937018279602, "dur":303351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937018582958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699937018583026, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Samsung/Desktop/YemaekHan/YemaekHan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699937018585394, "dur":102083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699937018693837, "dur":3056, "ph":"X", "name": "ProfilerWriteOutput" }
+,
